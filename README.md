@@ -10,7 +10,7 @@ Two data files have the same data structure:
 |-------|-------------|
 |id|the ids of the post in a conversation segment|
 |text|the text of the posts in a conversation segment|
-|hate_speech_idx|a list of the indexes of the hateful posts in this conversation|
+|hate_speech_idx|a list of the indexes of the hateful posts in this conversation| > mean reply? | in text will have 1,2,3,4,5,... for identify sentense | indentation for new sentense. 
 |response|a list of human-written responses|
 
 Please refer to the paper "A Benchmark Dataset for Learning to Intervene in Online Hate Speech" (EMNLP 2019) for the detailed information about the dataset.
